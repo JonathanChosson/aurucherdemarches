@@ -1,8 +1,9 @@
 .App {
     width: 100vw;
     height: 100vh;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     padding: 15px;
+    background-image: url("../public/image/wood-background.png");
 }
 
 * {

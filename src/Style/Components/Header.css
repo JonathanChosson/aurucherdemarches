@@ -1,0 +1,9 @@
+.Header {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.Header__h1 {
+    font-size: clamp(1.5rem, 0.4286rem + 2.8571vw, 3rem);
+}
