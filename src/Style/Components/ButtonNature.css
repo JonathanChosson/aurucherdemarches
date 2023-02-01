@@ -38,3 +38,19 @@ button:after {
     border-right: 2px solid #aa5e00;
     transition: all 0.3s;
 }
+
+@media screen and (max-width: 768px) {
+    button {
+        margin: 0px 5px 0px 5px;
+        border: none;
+        background-color: offwhite;
+        /* font-size: 0.5rem; */
+        font-size: 1rem;
+        padding: 5px 5px;
+        /* text-transform: capitalize; */
+        font-family: "Caveat", "Pacifico", cursive;
+        cursor: pointer;
+        transform: all 0.3s;
+        position: relative;
+    }
+}

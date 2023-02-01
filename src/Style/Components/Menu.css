@@ -26,8 +26,30 @@
     }
     .Menu {
         width: auto;
+        /* flex: 1; */
+        flex-direction: column;
+        margin-top: 0px;
     }
     .Header__hamburger {
         display: block;
     }
+    .Menu__nav {
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        /* z-index: 1; */
+        top: 10%;
+        left: 10%;
+        /* width: 95%; */
+        height: 50vh;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0px 10px 13px -7px #000000,
+            5px 5px 15px 5px rgba(156, 156, 156, 0);
+    }
+}
+
+.visible {
+    display: flex !important;
 }

@@ -3,11 +3,18 @@ import "../Style/Components/Menu.css"
 import ButtonNature from "./ButtonNature.jsx"
 
 const Menu = () => {
+    function toggleNav() {
+        const navMenu = document.querySelector(".Menu__nav")
+        // const navItem = document.querySelector(".Header__nav__ul")
+        // navItem.classList.toggle("visible")
+        // navMenu.classList.toggle("background")
+        navMenu.classList.toggle("visible")
+    }
     return (
         <div className="Menu">
             <i
                 className="fa-solid fa-bars Header__hamburger"
-                // onClick={toggleNav}
+                onClick={toggleNav}
             ></i>
             <nav className="Menu__nav">
                 <ButtonNature text={"Accueil"} lien={"/"}></ButtonNature>

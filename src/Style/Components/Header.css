@@ -51,6 +51,7 @@
     100% {
         top: 0%;
         left: 100%;
+        display: none;
     }
 }
 
@@ -70,10 +71,10 @@
     .Header__img {
         display: none;
     }
-    .Header__titre__bio {
+    /* .Header__titre__bio {
         display: none;
-    }
+    } */
     .Header {
-        flex-flow: row;
+        flex-flow: row-reverse;
     }
 }
