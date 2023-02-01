@@ -1,0 +1,40 @@
+button {
+    margin: 0px 5px 0px 5px;
+    border: none;
+    background-color: offwhite;
+    /* font-size: 0.5rem; */
+    font-size: clamp(0.5rem, 0.3rem + 1vw, 1rem);
+    padding: 5px 5px;
+    /* text-transform: capitalize; */
+    font-family: "Caveat", "Pacifico", cursive;
+    cursor: pointer;
+    transform: all 0.3s;
+    position: relative;
+}
+button:before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: -5px;
+    left: -5px;
+    border-top: 2px solid #aa5e00;
+    border-left: 2px solid #aa5e00;
+    transition: all 0.25s;
+}
+button:hover:before,
+button:hover:after {
+    width: 104%;
+    height: 110%;
+}
+button:after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    bottom: -5px;
+    right: -5px;
+    border-bottom: 2px solid #aa5e00;
+    border-right: 2px solid #aa5e00;
+    transition: all 0.3s;
+}

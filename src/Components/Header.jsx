@@ -33,13 +33,13 @@ const Header = () => {
                     alt="La petite ferme de Maoliga"
                     title="La petite ferme de Maoliga"
                 />
-                <div id="box">
+                {/* <div id="box">
                     <img
                         id="bee"
                         src="https://www.freepnglogos.com/uploads/bee-png/bee-what-the-buzz-defining-health-buzz-words-cleanworkout-34.png"
                         alt="Abeille"
                     />
-                </div>
+                </div> */}
             </div>
             <Menu />
         </div>
