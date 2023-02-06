@@ -14,16 +14,28 @@ const Header = () => {
                     title="Au Rucher de Marches"
                 />
                 <div className="Header__titre">
-                    <Link className="link" to={"/"}>
+                    <Link className="link Header__titre__link" to={"/"}>
                         <h1 className="Header__titre__h1">
                             Au Rucher de Marches
                         </h1>
                     </Link>
                     <img
+                        className="Header__titre__img"
+                        src="./image/logo-ferme.png"
+                        alt="La petite ferme de Maoliga"
+                        title="La petite ferme de Maoliga"
+                    />
+                    <img
                         className="Header__titre__bio"
                         src="./image/logo-bio.png"
                         alt="Certifié bio"
                         title="Certifié bio"
+                    />
+                    <img
+                        className="Header__titre__img"
+                        src="./image/logo-ferme.png"
+                        alt="La petite ferme de Maoliga"
+                        title="La petite ferme de Maoliga"
                     />
                 </div>
 

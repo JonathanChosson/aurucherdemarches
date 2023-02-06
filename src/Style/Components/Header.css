@@ -34,6 +34,9 @@
 .Header__titre__bio {
     width: 25%;
 }
+.Header__titre__img {
+    display: none;
+}
 
 .Header__img {
     width: 25%;
@@ -68,6 +71,17 @@
 }
 
 @media screen and (max-width: 768px) {
+    .Header__titre {
+        flex-flow: row wrap;
+    }
+    .Header__titre__link {
+        flex: 1 100%;
+        text-align: center;
+    }
+    .Header__titre__img {
+        display: block;
+        width: 25%;
+    }
     .Header__img {
         display: none;
     }

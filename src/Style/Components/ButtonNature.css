@@ -10,6 +10,7 @@ button {
     cursor: pointer;
     transform: all 0.3s;
     position: relative;
+    color: black;
 }
 button:before {
     content: "";
@@ -21,6 +22,7 @@ button:before {
     border-top: 2px solid #aa5e00;
     border-left: 2px solid #aa5e00;
     transition: all 0.25s;
+    color: black;
 }
 button:hover:before,
 button:hover:after {
@@ -34,6 +36,7 @@ button:after {
     height: 24px;
     bottom: -5px;
     right: -5px;
+    color: black;
     border-bottom: 2px solid #aa5e00;
     border-right: 2px solid #aa5e00;
     transition: all 0.3s;
