@@ -1,0 +1,43 @@
+.Footer {
+    width: 90%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    box-shadow: 0px 10px 13px -7px #000000,
+        5px 5px 15px 5px rgba(156, 156, 156, 0);
+}
+
+.Footer__social {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.Footer__social__p {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.Footer__social__insta {
+    font-size: 2rem;
+    background: linear-gradient(
+        45deg,
+        #405de6,
+        #5851db,
+        #833ab4,
+        #c13584,
+        #e1306c,
+        #fd1d1d
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Footer__social__fb {
+    font-size: 2rem;
+    color: blue;
+}

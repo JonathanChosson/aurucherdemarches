@@ -9,6 +9,7 @@
     background: #ffffff;
     position: relative;
     object-fit: cover;
+    margin: 5px;
 }
 
 .border::before {
