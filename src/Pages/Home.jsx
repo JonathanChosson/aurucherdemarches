@@ -47,8 +47,8 @@ const Home = () => {
                     </div>
                     <img
                         className="border Home__main__img"
-                        src="./image/miel-accueil.jpg"
-                        alt="Protrait Isabelle Roux"
+                        src="./image/miel-accueil.JPG"
+                        alt="Pots de miel"
                     />
                 </section>
             </main>

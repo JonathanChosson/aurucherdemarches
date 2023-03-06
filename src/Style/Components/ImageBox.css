@@ -10,6 +10,7 @@
     position: relative;
     object-fit: cover;
     margin: 5px;
+    z-index: 0;
 }
 
 .border::before {
