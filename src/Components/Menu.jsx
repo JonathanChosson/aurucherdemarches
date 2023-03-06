@@ -18,7 +18,10 @@ const Menu = () => {
             ></i>
             <nav className="Menu__nav">
                 <ButtonNature text={"Accueil"} lien={"/"}></ButtonNature>
-                <ButtonNature text={"Histoire"} lien={"/"}></ButtonNature>
+                <ButtonNature
+                    text={"Histoire"}
+                    lien={"/histoire"}
+                ></ButtonNature>
                 <ButtonNature text={"Nos produits"} lien={"/"}></ButtonNature>
                 <ButtonNature
                     text={"Ferme pédagogique"}
